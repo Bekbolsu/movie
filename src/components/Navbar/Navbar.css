@@ -1,0 +1,171 @@
+body {
+  /* background: fixed linear-gradient(150deg, rgb(32, 32, 87), rgb(109, 13, 29)); */
+  /* background: fixed #ff4b1f #1fddff; */
+
+  background: #fc00ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1c2d9e,
+    #971899
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1c2d9e,
+    #9e0ea1
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /* background-size: cover; */
+  /* background-position: center; */
+  width: 100%;
+  height: 100vh;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+.nav__item {
+  list-style: none;
+  color: white;
+}
+.input-search {
+  padding-left: 10px;
+  border-radius: 5px;
+  border: none;
+  color: black;
+  height: 30px;
+  margin-top: 5px;
+}
+
+/* #ul-t {
+  width: 50%;
+  justify-content: center;
+
+  align-items: center;
+  height: 100vh;
+} */
+.nav__link {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.icon-antd {
+  font-size: 30px;
+  margin: 0 20px;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  background: rgb(5, 16, 27);
+  z-index: 6;
+  width: 100%;
+}
+.nav__brand {
+  text-transform: uppercase;
+  width: 30%;
+}
+
+.nav__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+}
+.nav__toggler {
+  display: none;
+}
+.nav__toggler div {
+  width: 2.5rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background: rgb(204, 204, 204);
+  transition: 0.3s ease-in;
+}
+
+@media screen and (max-width: 1000px) {
+  .nav__toggler {
+    display: block;
+    cursor: pointer;
+  }
+  .nav__menu {
+    position: fixed;
+    top: 6vh;
+    right: 0;
+    height: 93vh;
+    width: 200px;
+    background: rgb(36, 76, 117);
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: 0.5s ease-in;
+  }
+  #ul-t {
+    z-index: 3;
+  }
+}
+/* Active Class */
+.nav__active {
+  transform: translateX(0%);
+}
+
+/* Toggle Icon Animation */
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-4px, 5px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-4px, -5px);
+}
+
+/* .user-main {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+} */
+
+.user .user-email {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.user .user-email .user-name {
+  font-weight: bold;
+  color: white;
+  margin-right: 30px;
+  margin-top: 1px;
+  text-align: center;
+  /* padding: -10px; */
+  /* margin-bottom: 30px; */
+}
+
+.user .user-icon {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 425px) {
+  .toggle {
+    width: 10px;
+    height: 10px;
+  }
+
+  .user {
+    font-size: 5px;
+  }
+
+  .icon-antd {
+    font-size: 25px;
+  }
+}

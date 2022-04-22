@@ -1,0 +1,808 @@
+{
+  "movies": [
+    {
+      "name": "Harry Potter and the Sorcerer's Stone",
+      "description": "Harry Potter and the Sorcerer's Stone is a red-blooded adventure movie, dripping with atmosphere, filled with the gruesome and the sublime, and surprisingly faithful to the novel. A lot of things could have gone wrong, and none of them have: Chris Columbus' movie is an enchanting classic that does full justice to a story that was a daunting challenge.",
+      "year": 2001,
+      "image1": "https://images.moviesanywhere.com/143cdb987186a1c8f94d4f18de211216/fdea56fa-2703-47c1-8da8-70fc5382e1ea.jpg",
+      "video": "https://p1.oc.kg:8082/video/f/2/King_Richard.mp4?an=1",
+      "id": 1,
+      "price": 25,
+      "type": "fantasy",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {},
+        {
+          "comment": "hsf",
+          "user": "omurkulovabs@gmail.com",
+          "id": 1650452559400
+        }
+      ],
+      "ratings": {
+        "rating": 5,
+        "name": "",
+        "id": 1650276902141
+      }
+    },
+    {
+      "name": "Fantastic Beasts and Where to Find Them 12",
+      "description": "The adventures of writer Newt Scamander in New York's secret community of witches and wizards seventy years before Harry Potter reads his book in school.",
+      "year": 2016,
+      "image1": "https://m.media-amazon.com/images/M/MV5BMjMxOTM1OTI4MV5BMl5BanBnXkFtZTgwODE5OTYxMDI@._V1_.jpg",
+      "video": "https://p1.oc.kg:8082/video/b/hd/Fantastic_Beasts720.mp4?an=0",
+      "id": 2,
+      "price": 25,
+      "type": "fantasy",
+      "types": "all",
+      "likes": [
+        {
+          "user": "omurkulovabs@gmail.com",
+          "id": 1650445924147
+        }
+      ],
+      "comments": [
+        {
+          "comment": "msbdfk",
+          "user": {
+            "uid": "Js1iMC1b4APxreidV71iHWKMfq12",
+            "email": "omurkulovabs@gmail.com",
+            "emailVerified": true,
+            "displayName": "Abs Omurkulov",
+            "isAnonymous": false,
+            "photoURL": "https://lh3.googleusercontent.com/a/AATXAJwiVSJPatEyH2cQwtE-kV4ts3dy9De8QXPyqtq4=s96-c",
+            "providerData": [
+              {
+                "providerId": "google.com",
+                "uid": "100046700793678681525",
+                "displayName": "Abs Omurkulov",
+                "email": "omurkulovabs@gmail.com",
+                "phoneNumber": null,
+                "photoURL": "https://lh3.googleusercontent.com/a/AATXAJwiVSJPatEyH2cQwtE-kV4ts3dy9De8QXPyqtq4=s96-c"
+              }
+            ],
+            "stsTokenManager": {
+              "refreshToken": "AIwUaOkHx9J_SqeEsNX79GV7cYUp43vcQ9DEt-rc1B2ahUdnz4JqntGIgoNQWYabXiZ7qjXtd8wKSwNgc99gAcKzukoxuJjQGx1vNdEnDbNXTiFpaOj-lhoEL399NpHsku9xzLkpO6rlIx_3Tf2CZOK7NsaNZBQzzxvTXOyLKMiWTn9tJXMcp5s676tMfSKOla39QDHx4khLK_p0AGN9lZ1AFRm_8XbgvLQquqH-qd6HnoSxxaOqmhw70V3CO0glNs90rcGGTFjoV2qAatYlRyn_SmUA0psQBNgaDo39OknTj71hAHJudn20bTNMFaEyZaGyKpUcvsE6lhWGvzXMK6Fn1HTpNZ1FKmyMle4onm7I0OwqGBpO0zowQKlOqoKsk39m5aSiH1du9C9oK2sQvtLuguHLKxh7Gep4HO5G6sOlG_sZ-2PkqiE",
+              "accessToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImM2NzNkM2M5NDdhZWIxOGI2NGU1OGUzZWRlMzI1NWZiZjU3NTI4NWIiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQWJzIE9tdXJrdWxvdiIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQVRYQUp3aVZTSlBhdEV5SDJjUXd0RS1rVjR0czNkeTlEZThRWFB5cXRxND1zOTYtYyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9jaGF0cy1hZTZkMyIsImF1ZCI6ImNoYXRzLWFlNmQzIiwiYXV0aF90aW1lIjoxNjUwNDM4NzkzLCJ1c2VyX2lkIjoiSnMxaU1DMWI0QVB4cmVpZFY3MWlIV0tNZnExMiIsInN1YiI6IkpzMWlNQzFiNEFQeHJlaWRWNzFpSFdLTWZxMTIiLCJpYXQiOjE2NTA0Mzg3OTMsImV4cCI6MTY1MDQ0MjM5MywiZW1haWwiOiJvbXVya3Vsb3ZhYnNAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMDAwNDY3MDA3OTM2Nzg2ODE1MjUiXSwiZW1haWwiOlsib211cmt1bG92YWJzQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.Lc_vnG62niKLjsBG5RF7QUWHU4lS7KvpQseNRTAVEjiqQ-YV5fUWjQOERMVIeKtndC9uKop_LULc3yYGQDGUrd35oMPyquKqvj_k1fISDlTAifSfCRg_wu6rljsDZcLCXAjygcksfYL4YZF02kYtv2h8E-VmAN87WYzBmXLVc3aDGHtqsiwZoq4kRiaeg0-Al9rYzskaIAi26HJGUJ8hOKSJf6VORTg86wJpzIysR3e-31jtOdowQnWfXNslyr_Cr3eHVWQDQsOLRi0LexAqMDwUIDGDtpkR5EP1Hqc_CfYIzAk-kOU5FBNUO7ew5N891fSPIKmzucF9KaXKUjiWGA",
+              "expirationTime": 1650442393908
+            },
+            "createdAt": "1650295542525",
+            "lastLoginAt": "1650438793554",
+            "apiKey": "AIzaSyCtk-623I7FF85yyZeXN7aaX-tBj7-Gv2c",
+            "appName": "[DEFAULT]"
+          },
+          "id": 1650438803944
+        },
+        {
+          "user": {
+            "uid": "Js1iMC1b4APxreidV71iHWKMfq12",
+            "email": "omurkulovabs@gmail.com",
+            "emailVerified": true,
+            "displayName": "Abs Omurkulov",
+            "isAnonymous": false,
+            "photoURL": "https://lh3.googleusercontent.com/a/AATXAJwiVSJPatEyH2cQwtE-kV4ts3dy9De8QXPyqtq4=s96-c",
+            "providerData": [
+              {
+                "providerId": "google.com",
+                "uid": "100046700793678681525",
+                "displayName": "Abs Omurkulov",
+                "email": "omurkulovabs@gmail.com",
+                "phoneNumber": null,
+                "photoURL": "https://lh3.googleusercontent.com/a/AATXAJwiVSJPatEyH2cQwtE-kV4ts3dy9De8QXPyqtq4=s96-c"
+              }
+            ],
+            "stsTokenManager": {
+              "refreshToken": "AIwUaOkHx9J_SqeEsNX79GV7cYUp43vcQ9DEt-rc1B2ahUdnz4JqntGIgoNQWYabXiZ7qjXtd8wKSwNgc99gAcKzukoxuJjQGx1vNdEnDbNXTiFpaOj-lhoEL399NpHsku9xzLkpO6rlIx_3Tf2CZOK7NsaNZBQzzxvTXOyLKMiWTn9tJXMcp5s676tMfSKOla39QDHx4khLK_p0AGN9lZ1AFRm_8XbgvLQquqH-qd6HnoSxxaOqmhw70V3CO0glNs90rcGGTFjoV2qAatYlRyn_SmUA0psQBNgaDo39OknTj71hAHJudn20bTNMFaEyZaGyKpUcvsE6lhWGvzXMK6Fn1HTpNZ1FKmyMle4onm7I0OwqGBpO0zowQKlOqoKsk39m5aSiH1du9C9oK2sQvtLuguHLKxh7Gep4HO5G6sOlG_sZ-2PkqiE",
+              "accessToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImM2NzNkM2M5NDdhZWIxOGI2NGU1OGUzZWRlMzI1NWZiZjU3NTI4NWIiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQWJzIE9tdXJrdWxvdiIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQVRYQUp3aVZTSlBhdEV5SDJjUXd0RS1rVjR0czNkeTlEZThRWFB5cXRxND1zOTYtYyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9jaGF0cy1hZTZkMyIsImF1ZCI6ImNoYXRzLWFlNmQzIiwiYXV0aF90aW1lIjoxNjUwNDM4NzkzLCJ1c2VyX2lkIjoiSnMxaU1DMWI0QVB4cmVpZFY3MWlIV0tNZnExMiIsInN1YiI6IkpzMWlNQzFiNEFQeHJlaWRWNzFpSFdLTWZxMTIiLCJpYXQiOjE2NTA0Mzg3OTMsImV4cCI6MTY1MDQ0MjM5MywiZW1haWwiOiJvbXVya3Vsb3ZhYnNAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMDAwNDY3MDA3OTM2Nzg2ODE1MjUiXSwiZW1haWwiOlsib211cmt1bG92YWJzQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.Lc_vnG62niKLjsBG5RF7QUWHU4lS7KvpQseNRTAVEjiqQ-YV5fUWjQOERMVIeKtndC9uKop_LULc3yYGQDGUrd35oMPyquKqvj_k1fISDlTAifSfCRg_wu6rljsDZcLCXAjygcksfYL4YZF02kYtv2h8E-VmAN87WYzBmXLVc3aDGHtqsiwZoq4kRiaeg0-Al9rYzskaIAi26HJGUJ8hOKSJf6VORTg86wJpzIysR3e-31jtOdowQnWfXNslyr_Cr3eHVWQDQsOLRi0LexAqMDwUIDGDtpkR5EP1Hqc_CfYIzAk-kOU5FBNUO7ew5N891fSPIKmzucF9KaXKUjiWGA",
+              "expirationTime": 1650442393908
+            },
+            "createdAt": "1650295542525",
+            "lastLoginAt": "1650438793554",
+            "apiKey": "AIzaSyCtk-623I7FF85yyZeXN7aaX-tBj7-Gv2c",
+            "appName": "[DEFAULT]"
+          },
+          "id": 1650438805098
+        },
+        {
+          "user": {
+            "uid": "Js1iMC1b4APxreidV71iHWKMfq12",
+            "email": "omurkulovabs@gmail.com",
+            "emailVerified": true,
+            "displayName": "Abs Omurkulov",
+            "isAnonymous": false,
+            "photoURL": "https://lh3.googleusercontent.com/a/AATXAJwiVSJPatEyH2cQwtE-kV4ts3dy9De8QXPyqtq4=s96-c",
+            "providerData": [
+              {
+                "providerId": "google.com",
+                "uid": "100046700793678681525",
+                "displayName": "Abs Omurkulov",
+                "email": "omurkulovabs@gmail.com",
+                "phoneNumber": null,
+                "photoURL": "https://lh3.googleusercontent.com/a/AATXAJwiVSJPatEyH2cQwtE-kV4ts3dy9De8QXPyqtq4=s96-c"
+              }
+            ],
+            "stsTokenManager": {
+              "refreshToken": "AIwUaOkHx9J_SqeEsNX79GV7cYUp43vcQ9DEt-rc1B2ahUdnz4JqntGIgoNQWYabXiZ7qjXtd8wKSwNgc99gAcKzukoxuJjQGx1vNdEnDbNXTiFpaOj-lhoEL399NpHsku9xzLkpO6rlIx_3Tf2CZOK7NsaNZBQzzxvTXOyLKMiWTn9tJXMcp5s676tMfSKOla39QDHx4khLK_p0AGN9lZ1AFRm_8XbgvLQquqH-qd6HnoSxxaOqmhw70V3CO0glNs90rcGGTFjoV2qAatYlRyn_SmUA0psQBNgaDo39OknTj71hAHJudn20bTNMFaEyZaGyKpUcvsE6lhWGvzXMK6Fn1HTpNZ1FKmyMle4onm7I0OwqGBpO0zowQKlOqoKsk39m5aSiH1du9C9oK2sQvtLuguHLKxh7Gep4HO5G6sOlG_sZ-2PkqiE",
+              "accessToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImM2NzNkM2M5NDdhZWIxOGI2NGU1OGUzZWRlMzI1NWZiZjU3NTI4NWIiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQWJzIE9tdXJrdWxvdiIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQVRYQUp3aVZTSlBhdEV5SDJjUXd0RS1rVjR0czNkeTlEZThRWFB5cXRxND1zOTYtYyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9jaGF0cy1hZTZkMyIsImF1ZCI6ImNoYXRzLWFlNmQzIiwiYXV0aF90aW1lIjoxNjUwNDM4NzkzLCJ1c2VyX2lkIjoiSnMxaU1DMWI0QVB4cmVpZFY3MWlIV0tNZnExMiIsInN1YiI6IkpzMWlNQzFiNEFQeHJlaWRWNzFpSFdLTWZxMTIiLCJpYXQiOjE2NTA0Mzg3OTMsImV4cCI6MTY1MDQ0MjM5MywiZW1haWwiOiJvbXVya3Vsb3ZhYnNAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMDAwNDY3MDA3OTM2Nzg2ODE1MjUiXSwiZW1haWwiOlsib211cmt1bG92YWJzQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.Lc_vnG62niKLjsBG5RF7QUWHU4lS7KvpQseNRTAVEjiqQ-YV5fUWjQOERMVIeKtndC9uKop_LULc3yYGQDGUrd35oMPyquKqvj_k1fISDlTAifSfCRg_wu6rljsDZcLCXAjygcksfYL4YZF02kYtv2h8E-VmAN87WYzBmXLVc3aDGHtqsiwZoq4kRiaeg0-Al9rYzskaIAi26HJGUJ8hOKSJf6VORTg86wJpzIysR3e-31jtOdowQnWfXNslyr_Cr3eHVWQDQsOLRi0LexAqMDwUIDGDtpkR5EP1Hqc_CfYIzAk-kOU5FBNUO7ew5N891fSPIKmzucF9KaXKUjiWGA",
+              "expirationTime": 1650442393908
+            },
+            "createdAt": "1650295542525",
+            "lastLoginAt": "1650438793554",
+            "apiKey": "AIzaSyCtk-623I7FF85yyZeXN7aaX-tBj7-Gv2c",
+            "appName": "[DEFAULT]"
+          },
+          "id": 1650438806294
+        },
+        {
+          "user": {
+            "uid": "Js1iMC1b4APxreidV71iHWKMfq12",
+            "email": "omurkulovabs@gmail.com",
+            "emailVerified": true,
+            "displayName": "Abs Omurkulov",
+            "isAnonymous": false,
+            "photoURL": "https://lh3.googleusercontent.com/a/AATXAJwiVSJPatEyH2cQwtE-kV4ts3dy9De8QXPyqtq4=s96-c",
+            "providerData": [
+              {
+                "providerId": "google.com",
+                "uid": "100046700793678681525",
+                "displayName": "Abs Omurkulov",
+                "email": "omurkulovabs@gmail.com",
+                "phoneNumber": null,
+                "photoURL": "https://lh3.googleusercontent.com/a/AATXAJwiVSJPatEyH2cQwtE-kV4ts3dy9De8QXPyqtq4=s96-c"
+              }
+            ],
+            "stsTokenManager": {
+              "refreshToken": "AIwUaOkHx9J_SqeEsNX79GV7cYUp43vcQ9DEt-rc1B2ahUdnz4JqntGIgoNQWYabXiZ7qjXtd8wKSwNgc99gAcKzukoxuJjQGx1vNdEnDbNXTiFpaOj-lhoEL399NpHsku9xzLkpO6rlIx_3Tf2CZOK7NsaNZBQzzxvTXOyLKMiWTn9tJXMcp5s676tMfSKOla39QDHx4khLK_p0AGN9lZ1AFRm_8XbgvLQquqH-qd6HnoSxxaOqmhw70V3CO0glNs90rcGGTFjoV2qAatYlRyn_SmUA0psQBNgaDo39OknTj71hAHJudn20bTNMFaEyZaGyKpUcvsE6lhWGvzXMK6Fn1HTpNZ1FKmyMle4onm7I0OwqGBpO0zowQKlOqoKsk39m5aSiH1du9C9oK2sQvtLuguHLKxh7Gep4HO5G6sOlG_sZ-2PkqiE",
+              "accessToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImM2NzNkM2M5NDdhZWIxOGI2NGU1OGUzZWRlMzI1NWZiZjU3NTI4NWIiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQWJzIE9tdXJrdWxvdiIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQVRYQUp3aVZTSlBhdEV5SDJjUXd0RS1rVjR0czNkeTlEZThRWFB5cXRxND1zOTYtYyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9jaGF0cy1hZTZkMyIsImF1ZCI6ImNoYXRzLWFlNmQzIiwiYXV0aF90aW1lIjoxNjUwNDM4NzkzLCJ1c2VyX2lkIjoiSnMxaU1DMWI0QVB4cmVpZFY3MWlIV0tNZnExMiIsInN1YiI6IkpzMWlNQzFiNEFQeHJlaWRWNzFpSFdLTWZxMTIiLCJpYXQiOjE2NTA0Mzg3OTMsImV4cCI6MTY1MDQ0MjM5MywiZW1haWwiOiJvbXVya3Vsb3ZhYnNAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMDAwNDY3MDA3OTM2Nzg2ODE1MjUiXSwiZW1haWwiOlsib211cmt1bG92YWJzQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.Lc_vnG62niKLjsBG5RF7QUWHU4lS7KvpQseNRTAVEjiqQ-YV5fUWjQOERMVIeKtndC9uKop_LULc3yYGQDGUrd35oMPyquKqvj_k1fISDlTAifSfCRg_wu6rljsDZcLCXAjygcksfYL4YZF02kYtv2h8E-VmAN87WYzBmXLVc3aDGHtqsiwZoq4kRiaeg0-Al9rYzskaIAi26HJGUJ8hOKSJf6VORTg86wJpzIysR3e-31jtOdowQnWfXNslyr_Cr3eHVWQDQsOLRi0LexAqMDwUIDGDtpkR5EP1Hqc_CfYIzAk-kOU5FBNUO7ew5N891fSPIKmzucF9KaXKUjiWGA",
+              "expirationTime": 1650442393908
+            },
+            "createdAt": "1650295542525",
+            "lastLoginAt": "1650438793554",
+            "apiKey": "AIzaSyCtk-623I7FF85yyZeXN7aaX-tBj7-Gv2c",
+            "appName": "[DEFAULT]"
+          },
+          "id": 1650438806546
+        },
+        {
+          "user": {
+            "uid": "Js1iMC1b4APxreidV71iHWKMfq12",
+            "email": "omurkulovabs@gmail.com",
+            "emailVerified": true,
+            "displayName": "Abs Omurkulov",
+            "isAnonymous": false,
+            "photoURL": "https://lh3.googleusercontent.com/a/AATXAJwiVSJPatEyH2cQwtE-kV4ts3dy9De8QXPyqtq4=s96-c",
+            "providerData": [
+              {
+                "providerId": "google.com",
+                "uid": "100046700793678681525",
+                "displayName": "Abs Omurkulov",
+                "email": "omurkulovabs@gmail.com",
+                "phoneNumber": null,
+                "photoURL": "https://lh3.googleusercontent.com/a/AATXAJwiVSJPatEyH2cQwtE-kV4ts3dy9De8QXPyqtq4=s96-c"
+              }
+            ],
+            "stsTokenManager": {
+              "refreshToken": "AIwUaOkHx9J_SqeEsNX79GV7cYUp43vcQ9DEt-rc1B2ahUdnz4JqntGIgoNQWYabXiZ7qjXtd8wKSwNgc99gAcKzukoxuJjQGx1vNdEnDbNXTiFpaOj-lhoEL399NpHsku9xzLkpO6rlIx_3Tf2CZOK7NsaNZBQzzxvTXOyLKMiWTn9tJXMcp5s676tMfSKOla39QDHx4khLK_p0AGN9lZ1AFRm_8XbgvLQquqH-qd6HnoSxxaOqmhw70V3CO0glNs90rcGGTFjoV2qAatYlRyn_SmUA0psQBNgaDo39OknTj71hAHJudn20bTNMFaEyZaGyKpUcvsE6lhWGvzXMK6Fn1HTpNZ1FKmyMle4onm7I0OwqGBpO0zowQKlOqoKsk39m5aSiH1du9C9oK2sQvtLuguHLKxh7Gep4HO5G6sOlG_sZ-2PkqiE",
+              "accessToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImM2NzNkM2M5NDdhZWIxOGI2NGU1OGUzZWRlMzI1NWZiZjU3NTI4NWIiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQWJzIE9tdXJrdWxvdiIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQVRYQUp3aVZTSlBhdEV5SDJjUXd0RS1rVjR0czNkeTlEZThRWFB5cXRxND1zOTYtYyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9jaGF0cy1hZTZkMyIsImF1ZCI6ImNoYXRzLWFlNmQzIiwiYXV0aF90aW1lIjoxNjUwNDM4NzkzLCJ1c2VyX2lkIjoiSnMxaU1DMWI0QVB4cmVpZFY3MWlIV0tNZnExMiIsInN1YiI6IkpzMWlNQzFiNEFQeHJlaWRWNzFpSFdLTWZxMTIiLCJpYXQiOjE2NTA0Mzg3OTMsImV4cCI6MTY1MDQ0MjM5MywiZW1haWwiOiJvbXVya3Vsb3ZhYnNAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMDAwNDY3MDA3OTM2Nzg2ODE1MjUiXSwiZW1haWwiOlsib211cmt1bG92YWJzQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.Lc_vnG62niKLjsBG5RF7QUWHU4lS7KvpQseNRTAVEjiqQ-YV5fUWjQOERMVIeKtndC9uKop_LULc3yYGQDGUrd35oMPyquKqvj_k1fISDlTAifSfCRg_wu6rljsDZcLCXAjygcksfYL4YZF02kYtv2h8E-VmAN87WYzBmXLVc3aDGHtqsiwZoq4kRiaeg0-Al9rYzskaIAi26HJGUJ8hOKSJf6VORTg86wJpzIysR3e-31jtOdowQnWfXNslyr_Cr3eHVWQDQsOLRi0LexAqMDwUIDGDtpkR5EP1Hqc_CfYIzAk-kOU5FBNUO7ew5N891fSPIKmzucF9KaXKUjiWGA",
+              "expirationTime": 1650442393908
+            },
+            "createdAt": "1650295542525",
+            "lastLoginAt": "1650438793554",
+            "apiKey": "AIzaSyCtk-623I7FF85yyZeXN7aaX-tBj7-Gv2c",
+            "appName": "[DEFAULT]"
+          },
+          "id": 1650438806947
+        },
+        {
+          "comment": "nshdfb",
+          "user": "omurkulovabs@gmail.com",
+          "id": 1650444418237
+        },
+        {
+          "comment": "zvdfjhbasd",
+          "user": "omurkulovabs@gmail.com",
+          "id": 1650444431169
+        },
+        {
+          "comment": "jzvhf",
+          "user": "omurkulovabs@gmail.com",
+          "id": 1650445127598
+        },
+        {
+          "comment": "hsdbfjkhgvhbzxmnv.,dxczbnm,.fcsdhjfnkmofgAzghj",
+          "user": "omurkulovabs@gmail.com",
+          "id": 1650445728210
+        },
+        {
+          "comment": "hdfgkf",
+          "user": "omurkulovabs@gmail.com",
+          "id": 1650446221503
+        },
+        {
+          "comment": "xndfg",
+          "user": "omurkulovabs@gmail.com",
+          "id": 1650447884445
+        },
+        {
+          "comment": "xndfgdnf",
+          "user": "omurkulovabs@gmail.com",
+          "id": 1650447888282
+        },
+        {
+          "user": "omurkulovabs@gmail.com",
+          "id": 1650447890151
+        },
+        {
+          "user": "omurkulovabs@gmail.com",
+          "id": 1650447891446
+        },
+        {
+          "user": "omurkulovabs@gmail.com",
+          "id": 1650447892481
+        },
+        {
+          "user": "omurkulovabs@gmail.com",
+          "id": 1650447893328
+        },
+        {
+          "comment": "xndfgdxdfhnf",
+          "user": "omurkulovabs@gmail.com",
+          "id": 1650447897292
+        },
+        {
+          "comment": "xndfgdxdfhnffgb",
+          "user": "omurkulovabs@gmail.com",
+          "id": 1650447899842
+        },
+        {
+          "comment": "xndfgdxdfhnffgbhbrg",
+          "user": "omurkulovabs@gmail.com",
+          "id": 1650447903706
+        },
+        {
+          "comment": "xndfgdxdfhnffgbhbrgdsfg",
+          "user": "omurkulovabs@gmail.com",
+          "id": 1650447907036
+        },
+        {
+          "comment": "xndfgdxdfhnffgbhfg",
+          "user": "omurkulovabs@gmail.com",
+          "id": 1650447911021
+        },
+        {
+          "user": "omurkulovabs@gmail.com",
+          "id": 1650447912411
+        },
+        {
+          "comment": "jhdfbkjgnsf",
+          "user": "omurkulovabs@gmail.com",
+          "id": 1650448001574
+        },
+        {
+          "comment": "jhdjsdf",
+          "user": "omurkulovabs@gmail.com",
+          "id": 1650448007681
+        },
+        {
+          "user": "omurkulovabs@gmail.com",
+          "id": 1650448009017
+        }
+      ],
+      "ratings": {
+        "rating": 2.5,
+        "name": "chika@gmail.com",
+        "id": 1650276275074
+      }
+    },
+    {
+      "name": "Tales from Earthsea",
+      "description": "Ged, the rebellious son of a blacksmith, learns that his destiny is to become a great sorcerer ever known in Earthsea, a mystical world of hundreds of islands.",
+      "year": 2010,
+      "image1": "https://kbimages1-a.akamaihd.net/7bc34005-0975-413a-aa41-450b040826c1/353/569/90/False/tales-from-earthsea-4.jpg",
+      "video": "https://nl104.cdnsqu.com/s/FXFSadHJVEll8aDUCK9DNuhTVkFBQUFBQUFBQUFBQkkyS0ZBQUJC/hd_30/Tales.from.Earthsea.2006.D.BDRemux.1080p_480.mp4?vs4-origin",
+      "id": 3,
+      "price": 25,
+      "type": "fantasy",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    },
+    {
+      "name": "Batman v Superman: Dawn of Justice",
+      "description": "Fearing that the actions of Superman are left unchecked, Batman takes on the Man of Steel, while the world wrestles with what kind of a hero it really needs.",
+      "year": 2016,
+      "image1": "https://m.media-amazon.com/images/M/MV5BYThjYzcyYzItNTVjNy00NDk0LTgwMWQtYjMwNmNlNWJhMzMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+      "video": "https://p1.oc.kg:8082/video/c/hd/BvsS_ras_720.mp4?an=0",
+      "id": 4,
+      "price": 25,
+      "type": "fantasy",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    },
+    {
+      "name": "Catwoman",
+      "description": "A shy woman, endowed with the speed, reflexes, and senses of a cat, walks a thin line between criminal and hero, even as a detective doggedly pursues her, fascinated by both of her personas.",
+      "year": 2004,
+      "image1": "https://m.media-amazon.com/images/M/MV5BMjA4MzM0NDAzOF5BMl5BanBnXkFtZTcwMDY3MDYyMQ@@._V1_FMjpg_UX1000_.jpg",
+      "video": "https://p1.oc.kg:8082/video/f/4/CatWoman_Hunted.mp4?an=0",
+      "id": 5,
+      "price": 25,
+      "type": "fantasy",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    },
+    {
+      "name": "Charlie and the Chocolate Factory",
+      "description": "A young boy wins a tour through the most magnificent chocolate factory in the world, led by the world's most unusual candy maker.",
+      "year": 2005,
+      "image1": "https://images.moviesanywhere.com/fbe8de0c7749e1f5c5b0a5faa48c2bee/1336299a-03db-44be-8bf8-bf8a976143ca.jpg",
+      "video": "https://p1.oc.kg:8082/video/a/25/Charli_i_Shokoladnaya_fabrika.mp4?an=0",
+      "id": 6,
+      "price": 25,
+      "type": "fantasy",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    },
+    {
+      "name": "How the Grinch Stole Christmas",
+      "description": "On the outskirts of Whoville lives a green, revenge-seeking Grinch who plans to ruin Christmas for all of the citizens of the town.",
+      "year": 2000,
+      "image1": "https://m.media-amazon.com/images/M/MV5BNWNiNTczNzEtMjQyZC00MjFmLTkzMDMtODk4ZGMyZmE0N2E4XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+      "video": "https://p1.oc.kg:8082/video/d/5/How_the_Grinch_Stole_Christmas.mp4?an=0",
+      "id": 7,
+      "price": 25,
+      "type": "fantasy",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    },
+    {
+      "name": "Godzilla: King of the Monsters",
+      "description": "The crypto-zoological agency Monarch faces off against a battery of god-sized monsters, including the mighty Godzilla, who collides with Mothra, Rodan, and his ultimate nemesis, the three-headed King Ghidorah.",
+      "year": 2019,
+      "image1": "https://m.media-amazon.com/images/M/MV5BOGFjYWNkMTMtMTg1ZC00Y2I4LTg0ZTYtN2ZlMzI4MGQwNzg4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+      "video": "https://p1.oc.kg:8082/video/c/hd3/Godzilla2_hd.mp4?an=0",
+      "id": 8,
+      "price": 25,
+      "type": "fantasy",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    },
+    {
+      "name": "The Hobbit: An Unexpected Journey",
+      "description": "A reluctant Hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home, and the gold within it from the dragon Smaug.",
+      "year": 2012,
+      "image1": "https://static.tvtropes.org/pmwiki/pub/images/868ad3d2_3a50_4a2a_8218_4fa10d1352b0.jpeg",
+      "video": "https://p1.oc.kg:8082/video/d/18/Hobbi_nejdannoe_puteshestvie_RV.mp4?an=0",
+      "id": 9,
+      "price": 25,
+      "type": "fantasy",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    },
+    {
+      "name": "The Incredible Hulk",
+      "description": "Bruce Banner, a scientist on the run from the U.S. Government, must find a cure for the monster he turns into whenever he loses his temper.",
+      "year": 2008,
+      "image1": "https://flxt.tmsimg.com/assets/p176337_p_v8_am.jpg",
+      "video": "https://p1.oc.kg:8082/video/c/hd/Neveroyatniy_halk720.mp4?an=0",
+      "id": 10,
+      "price": 25,
+      "type": "fantasy",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    },
+    {
+      "name": "The Matrix 12",
+      "description": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+      "year": 1999,
+      "image1": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg",
+      "video": "https://p1.oc.kg:8082/video/d/19/Matrix.mp4?an=0",
+      "id": 11,
+      "price": 25,
+      "type": "fantasy",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    },
+    {
+      "name": "King Kong",
+      "description": "A greedy film producer assembles a team of moviemakers and sets out for the infamous Skull Island, where they find more than just cannibalistic natives.",
+      "year": 2005,
+      "image1": "https://images.moviesanywhere.com/48097a2890c8f7fca7246973847b0ade/1259d2cf-4871-422a-9dec-1e291c2fec92.jpg",
+      "video": "https://p1.oc.kg:8082/video/a/26/King_kong_2005.mp4?an=0",
+      "id": 12,
+      "price": 25,
+      "type": "fantasy",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    },
+    {
+      "name": "Meet the Parents",
+      "description": "Male nurse Greg Focker meets his girlfriend's parents before proposing, but her suspicious father is every date's worst nightmare.",
+      "year": 2005,
+      "image1": "https://m.media-amazon.com/images/M/MV5BMGNlMGZiMmUtZjU0NC00MWU4LWI0YTgtYzdlNGVhZGU4NWZlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg",
+      "video": "https://p1.oc.kg:8082/video/d/14/Znakomstvo_s_roditelyami.mp4?an=0",
+      "id": 13,
+      "price": 25,
+      "type": "comedy",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    },
+    {
+      "name": "Bad Teacher",
+      "description": "A lazy, incompetent middle school teacher who hates her job, her students, and her co-workers is forced to return to teaching to make enough money for breast implants after her wealthy fiancé dumps her.",
+      "year": 2011,
+      "image1": "https://deepfocusreview.com/wp-content/uploads/2016/12/bad_teacher.jpg",
+      "video": "https://p1.oc.kg:8082/video/e/40/Ochen_plohaya_uchilka.mp4?an=0",
+      "id": 14,
+      "price": 25,
+      "type": "comedy",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    },
+    {
+      "name": "We're the Millers",
+      "description": "A veteran pot dealer creates a fake family as part of his plan to move a huge shipment of weed into the U.S. from Mexico.",
+      "year": 2013,
+      "image1": "https://m.media-amazon.com/images/M/MV5BMjA5Njc0NDUxNV5BMl5BanBnXkFtZTcwMjYzNzU1OQ@@._V1_FMjpg_UX1000_.jpg",
+      "video": "https://p1.oc.kg:8082/video/e/35/Mi_millery_2013_Dub.mp4?an=0",
+      "id": 15,
+      "price": 25,
+      "type": "comedy",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    },
+    {
+      "name": "Free Guy",
+      "description": "In 'Free Guy,' a bank teller who discovers he is actually a background player in an open-world video game, decides to become the hero of his own story...one he rewrites himself. Now in a world where there are no limits, he is determined to be the guy who saves his world his way...before it is too late.",
+      "year": 2011,
+      "image1": "https://m.media-amazon.com/images/M/MV5BOTY2NzFjODctOWUzMC00MGZhLTlhNjMtM2Y2ODBiNGY1ZWRiXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+      "video": "https://p1.oc.kg:8082/video/d/hd2/Free_Guy_hd.mp4?an=0",
+      "id": 16,
+      "price": 25,
+      "type": "comedy",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    },
+    {
+      "name": "Bridget Jones: The Edge of Reason",
+      "description": "After finding love, Bridget Jones questions if she really has everything she'd ever dreamed of having.",
+      "year": 2014,
+      "image1": "https://flxt.tmsimg.com/assets/p35099_p_v8_ai.jpg",
+      "video": "https://p1.oc.kg:8082/video/a/27/Bridjit_Jones_Grani_Razumnogo.mp4?an=0",
+      "id": 17,
+      "price": 25,
+      "type": "comedy",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    },
+    {
+      "name": "Crazy Rich Asians",
+      "description": "This contemporary romantic comedy, based on a global bestseller, follows native New Yorker Rachel Chu to Singapore to meet her boyfriend's family.",
+      "year": 2018,
+      "image1": "https://m.media-amazon.com/images/M/MV5BMTYxNDMyOTAxN15BMl5BanBnXkFtZTgwMDg1ODYzNTM@._V1_.jpg",
+      "video": "https://p1.oc.kg:8082/video/c/2/Crazy_rich_Asians.mp4?an=0",
+      "id": 18,
+      "price": 25,
+      "type": "comedy",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    },
+    {
+      "name": "Get Smart",
+      "description": "Maxwell Smart, a highly intellectual but bumbling spy working for the CONTROL agency, is tasked with preventing a terrorist attack from rival spy agency KAOS.",
+      "year": 2008,
+      "image1": "https://www.movieguide.org/wp-content/uploads/2012/08/5752.jpg",
+      "video": "https://p1.oc.kg:8082/video/f/3/Napryagi_izviliny.mp4?an=0",
+      "id": 19,
+      "price": 25,
+      "type": "comedy",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    },
+    {
+      "name": "The Hangover",
+      "description": "Three buddies wake up from a bachelor party in Las Vegas, with no memory of the previous night and the bachelor missing. They make their way around the city in order to find their friend before his wedding.",
+      "year": 2009,
+      "image1": "https://m.media-amazon.com/images/M/MV5BNGQwZjg5YmYtY2VkNC00NzliLTljYTctNzI5NmU3MjE2ODQzXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+      "video": "https://p1.oc.kg:8082/video/e/41/The_Hangover.mp4?an=0",
+      "id": 20,
+      "price": 25,
+      "type": "comedy",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    },
+    {
+      "name": "He's Just Not That Into You",
+      "description": "This Baltimore-set movie of interconnecting story arcs deals with the challenges of reading or misreading human behavior.",
+      "year": 2009,
+      "image1": "https://m.media-amazon.com/images/M/MV5BMTY5MTUyNDgwMF5BMl5BanBnXkFtZTcwNzYzMDQyMg@@._V1_FMjpg_UX1000_.jpg",
+      "video": "https://p1.oc.kg:8082/video/a/29/obeshat_neznachit_jenitsa.mp4?an=0",
+      "id": 21,
+      "price": 25,
+      "type": "comedy",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    },
+    {
+      "name": "The Internship",
+      "description": "Two salesmen whose careers have been torpedoed by the digital age find their way into a coveted internship at Google, where they must compete with a group of young, tech-savvy geniuses for a shotat employment.",
+      "year": 2013,
+      "image1": "https://m.media-amazon.com/images/M/MV5BMjM1MzczMDgwOV5BMl5BanBnXkFtZTcwMDM4NjM2OQ@@._V1_FMjpg_UX1000_.jpg",
+      "video": "https://oc.kg/background/c_dve7AqFzGr1VUgoDWna4.mp4",
+      "id": 22,
+      "price": 25,
+      "type": "comedy",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    },
+    {
+      "name": "The Break-Up",
+      "description": "In a bid to keep their luxurious condo from their significant other, a couple's break-up proceeds to get uglier and nastier by the moment.",
+      "year": 2006,
+      "image1": "https://m.media-amazon.com/images/M/MV5BOTM1YjVhNTMtZTEyZi00ODk3LWI4NDItZWUyZTA1ODM3Zjk4XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_.jpg",
+      "video": "https://imdb-video.media-imdb.com/vi4218987545/1434659607842-pgv4ql-1564169907118.mp4?Expires=1649861968&Signature=HGCyygdPdUcfx2W93~qljK1YcqwEaXUlsSQwGKpgBy3-kjXg4mX6amtXsvrTu3vCkYULQswCkFRD4ndEBQUKEcyNp6YOsLSyQUzbGGJ5w48znIcg-mnbT0RSJJFV9dyaRweBxcA7SQvs8fWh8YHT8Ya3vQMFcRRdBlacV-20fxAzEgH0IxnzlveGjbp6cQaG~Mu6DrVD8X1fO2vYkccc26ZhPnUNHY2MNF20lpJ8Vwk02CcCMSwoasyM8sGdzJkJUj2y1a92ar8Weiy~wocXbnws8cFL0jrf8-sUGvUmRTgMzLNJc4XFpMPWxLPu7ue9kxZ1IDFXUO6pJVUOsTZ0-Q__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+      "id": 23,
+      "price": 25,
+      "type": "comedy",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    },
+    {
+      "name": "Mean Girls",
+      "description": "Cady Heron is a hit with The Plastics, the A-list girl clique at her new school, until she makes the mistake of falling for Aaron Samuels, the ex-boyfriend of alpha Plastic Regina George.",
+      "year": 2004,
+      "image1": "https://i.pinimg.com/736x/26/32/dc/2632dce24165e8f4f0925609c4c37779.jpg",
+      "video": "https://p1.oc.kg:8082/video/b/37/Mean_Girls.mp4?an=0",
+      "id": 24,
+      "price": 25,
+      "type": "comedy",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    },
+    {
+      "name": "The Fast and the Furious",
+      "description": "Los Angeles police officer Brian O'Conner must decide where his loyalty really lies when he becomes enamored with the street racing world he has been sent undercover to destroy.",
+      "year": 2001,
+      "image1": "https://m.media-amazon.com/images/M/MV5BNzlkNzVjMDMtOTdhZC00MGE1LTkxODctMzFmMjkwZmMxZjFhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+      "video": "https://p1.oc.kg:8082/video/e/40/Forsaj720.mp4?an=0",
+      "id": 25,
+      "price": 25,
+      "type": "action",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    },
+    {
+      "name": "The King's Man",
+      "description": "In the early years of the 20th century, the Kingsman agency is formed to stand against a cabal plotting a war to wipe out millions.",
+      "year": 2021,
+      "image1": "https://m.media-amazon.com/images/M/MV5BMDEzZDY2ZDktNTlmOS00NThjLThkNTEtMjE5MzI5NWEwZmRjXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg",
+      "video": "https://p1.oc.kg:8082/video/f/hd2/The_KingSman_hd.mp4?an=0",
+      "id": 26,
+      "price": 25,
+      "type": "action",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    },
+    {
+      "name": "Transformers",
+      "description": "An ancient struggle between two Cybertronian races, the heroic Autobots and the evil Decepticons, comes to Earth, with a clue to the ultimate power held by a teenager.",
+      "year": 2007,
+      "image1": "https://m.media-amazon.com/images/M/MV5BNDg1NTU2OWEtM2UzYi00ZWRmLWEwMTktZWNjYWQ1NWM1OThjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+      "video": "https://p1.oc.kg:8082/video/d/20/Transformers.mp4?an=0",
+      "id": 27,
+      "price": 25,
+      "type": "action",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    },
+    {
+      "name": "I Am Legend",
+      "description": "Years after a plague kills most of humanity and transforms the rest into monsters, the sole survivor in New York City struggles valiantly to find a cure.",
+      "year": 2007,
+      "image1": "https://m.media-amazon.com/images/M/MV5BYTE1ZTBlYzgtNmMyNS00ZTQ2LWE4NjEtZjUxNDJkNTg2MzlhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg",
+      "video": "https://p1.oc.kg:8082/video/a/29/Ya_legenda_Teatr_vers.mp4?an=0",
+      "id": 28,
+      "price": 25,
+      "type": "action",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    },
+    {
+      "name": "Kick-Ass",
+      "description": "Dave Lizewski is an unnoticed high school student and comic book fan who one day decides to become a superhero, even though he has no powers, training or meaningful reason to do so.",
+      "year": 2010,
+      "image1": "https://m.media-amazon.com/images/M/MV5BMTMzNzEzMDYxM15BMl5BanBnXkFtZTcwMTc0NTMxMw@@._V1_.jpg",
+      "video": "https://p1.oc.kg:8082/video/d/19/Kick_Ass_2010.mp4?an=0",
+      "id": 29,
+      "price": 25,
+      "type": "action",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    },
+    {
+      "name": "Ultraviolet",
+      "description": "A beautiful hæmophage infected with a virus that gives her superhuman powers has to protect a boy in a futuristic world, who is thought to be carrying antigens that would destroy all hæmophages.",
+      "year": 2006,
+      "image1": "https://images.moviesanywhere.com/d4e1ad304bd4583060fd8b3c08744910/a68dee33-3697-4a6c-87b3-c563dc9e51a0.jpg",
+      "video": "https://imdb-video.media-imdb.com/vi2363490585/1434659607842-pgv4ql-1564230934323.mp4?Expires=1649863352&Signature=G~d5BoMn7-C6AcKqw3QZkZCW7riDW79Qi2Co562ql8WN2WD-Fyzrix0PfQj4lwXOO7FtGFObKIpApKYJFvfDdNAyZJM7nWcc2xniBsUWcR~zaEl17Feu3JvagNKB3UFwCWHicc6PIcV6TkPJHH1ZRU8ysnFti6tqFZAvh-W6OsPwKMTEpVH7Xoqj8J55-4xbfn~eLumMCAu6tnsHI7cQA~Pdc0VIBP~PWq4Kq-P0lNkR6esINs8voOZOcOdKpTD~Uyc3RGnygnkRDx8XIKvy4mCElp~B0ldmxZImJERqIaOr~5ylgE0CKLmbB4UP2xPkXEki9eOp3cob5lQU3bh8AA__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+      "id": 30,
+      "price": 25,
+      "type": "action",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    },
+    {
+      "name": "Troy",
+      "description": "An adaptation of Homer's great epic, the film follows the assault on Troy by the united Greek forces and chronicles the fates of the men involved.",
+      "year": 2004,
+      "image1": "https://m.media-amazon.com/images/M/MV5BMTk5MzU1MDMwMF5BMl5BanBnXkFtZTcwNjczODMzMw@@._V1_FMjpg_UX1000_.jpg",
+      "video": "https://p1.oc.kg:8082/video/b/34/Troy.mp4?an=0",
+      "id": 31,
+      "price": 25,
+      "type": "action",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    },
+    {
+      "name": "Salt",
+      "description": "A CIA agent goes on the run after a defector accuses her of being a Russian spy.",
+      "year": 2010,
+      "image1": "https://occ-0-2954-2568.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABShedeDSRfRVMO5PfhkxAzQ8Fv-9YB2viDL6X8_IauDa_NXrqMnhgF8h0RyTS1oy4EKGtZPIW3kHJ8fEc9OOzcQ78kX7.jpg",
+      "video": "https://p1.oc.kg:8082/video/b/36/Solt.mp4?an=0",
+      "id": 32,
+      "price": 25,
+      "type": "action",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    },
+    {
+      "name": "War",
+      "description": "An FBI Agent seeks vengeance on a mysterious assassin known as 'Rogue' who murdered his partner.",
+      "year": 2007,
+      "image1": "https://m.media-amazon.com/images/M/MV5BNTIwMjE2Mjc1MF5BMl5BanBnXkFtZTYwNzI0OTI3._V1_FMjpg_UX1000_.jpg",
+      "video": "https://p1.oc.kg:8082/video/d/hd2/War.mp4?an=0",
+      "id": 33,
+      "price": 25,
+      "type": "action",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    },
+    {
+      "name": "Joker",
+      "description": "A mentally troubled stand-up comedian embarks on a downward spiral that leads to the creation of an iconic villain.",
+      "year": 2019,
+      "image1": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+      "video": "https://p1.oc.kg:8082/video/c/hd2/Joker_hd2.mp4?an=0",
+      "id": 34,
+      "price": 25,
+      "type": "action",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    },
+    {
+      "name": "The Wolverine",
+      "description": "Wolverine comes to Japan to meet an old friend whose life he saved years ago, and gets embroiled in a conspiracy involving yakuza and mutants.",
+      "year": 2013,
+      "image1": "https://m.media-amazon.com/images/M/MV5BNzg1MDQxMTQ2OF5BMl5BanBnXkFtZTcwMTk3MjAzOQ@@._V1_FMjpg_UX1000_.jpg",
+      "video": "https://p1.oc.kg:8082/video/c/hd/The_Wolverine720.mp4?an=0",
+      "id": 35,
+      "price": 25,
+      "type": "action",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    },
+    {
+      "name": "Aquaman",
+      "description": "Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land.",
+      "year": 2018,
+      "image1": "https://m.media-amazon.com/images/M/MV5BOTk5ODg0OTU5M15BMl5BanBnXkFtZTgwMDQ3MDY3NjM@._V1_.jpg",
+      "video": "https://p1.oc.kg:8082/video/a/hd4/Aquaman_hd.mp4?an=0",
+      "id": 36,
+      "price": 25,
+      "type": "action",
+      "types": "all",
+      "likes": [],
+      "comments": [
+        {}
+      ]
+    }
+  ]
+}
